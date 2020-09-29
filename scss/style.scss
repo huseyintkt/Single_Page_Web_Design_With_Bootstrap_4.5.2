@@ -3,11 +3,44 @@ $primary-color: #F59914;
 $secondary-color: #00ADB5;
 $white: #ffffff;
 $section-padding: 50px;
-$section-margin: 50px;
+// $section-margin: 50px;
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.title-h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: $primary-color;
+    margin-bottom: 24px;
+}
+
+.title-h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.custom-btn-outline {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor: pointer;
+    margin: 10px;
+    color: $primary-color;
+    border-color: $primary-color;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: $primary-color;
+        color: $white;
+    }
+}
 
 /* NAVBAR */
 .navbar {
     border-bottom: $primary-color 2px solid;
+    background-color: rgba(0,0,0,0.7) !important;
 
     .navbar-brand{
         color: $primary-color !important;
@@ -22,10 +55,6 @@ $section-margin: 50px;
             color: $primary-color !important;
         }
     }
-}
-
-.navbar-bg{
-    background-color: rgba(0,0,0,0.7) !important;
 }
 
 /* HEADER */
@@ -45,43 +74,31 @@ $section-margin: 50px;
     .pre-title{
         color: $primary-color !important;
     }
-
-    .left-btn, .right-btn{
-        padding-left: 30px;
-        padding-right: 30px;
-        border-radius: 0;
-        cursor: pointer;
-        margin: 10px;
-    }
-
-    .btn-outline-primary {
-        color: $secondary-color;
-        border-color: $secondary-color;
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            background-color: $secondary-color;
-            color: $white;
-        }
-    }
 }
 
 /* SERVICES */
 #services{
-    padding: $section-padding;
-    
-    .service{
-        i{                
-            color: $secondary-color;               
-        }
-    
-        h3{
-            font-size: 18px;
-            font-weight: 400;
-        }
+    padding-top: $section-padding;
 
-        p{
-            font-size: 14px;
-            line-height:26px;
-        }
+    i{                
+        color: $primary-color;               
+    }
+
+    p{
+        line-height: 27px;
+    }
+}
+
+/* ABOUT */
+#about{
+    padding-top: $section-padding;
+
+    .title-about{
+        border-left: 4px solid $primary-color;
+        padding-left: 20px;
+    }
+
+    p{
+        line-height: 24px;
     }
 }

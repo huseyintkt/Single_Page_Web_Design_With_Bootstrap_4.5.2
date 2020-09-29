@@ -15,6 +15,7 @@ body{
     font-weight: 400;
     color: $primary-color;
     margin-bottom: 24px;
+    text-transform: uppercase;
 }
 
 .title-h3{
@@ -41,12 +42,10 @@ body{
 .navbar {
     border-bottom: $primary-color 2px solid;
     background-color: rgba(0,0,0,0.7) !important;
-
     .navbar-brand{
         color: $primary-color !important;
         font-size: 24px;
     }
-
     .nav-link{
         color: $white !important;
         text-transform: uppercase;
@@ -62,15 +61,12 @@ body{
     background: url('../images/header-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-
     .overlay{
         background-color: rgba(0,0,0,0.8);
     }
-
     .content{
         height: 100vh;
     }
-
     .pre-title{
         color: $primary-color !important;
     }
@@ -79,11 +75,10 @@ body{
 /* SERVICES */
 #services{
     padding-top: $section-padding;
-
+    padding-bottom: $section-padding;
     i{                
         color: $primary-color;               
     }
-
     p{
         line-height: 27px;
     }
@@ -92,13 +87,31 @@ body{
 /* ABOUT */
 #about{
     padding-top: $section-padding;
-
+    padding-bottom: $section-padding;
     .title-about{
         border-left: 4px solid $primary-color;
         padding-left: 20px;
     }
-
     p{
         line-height: 24px;
     }
+}
+
+/* TEAM */
+#team{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    .card{
+        border: none;
+        cursor: pointer;
+        i{
+            color: $primary-color;        
+        }
+    }
+}
+
+/* WHAT ARE WE DOING */
+#services-2{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
 }

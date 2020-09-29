@@ -114,4 +114,42 @@ body{
 #services-2{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url('../images/what-are-we-doing.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .fa-play-circle{
+        color: $primary-color;
+    }
+}
+
+/* CASE STUDY */
+#case-study{
+    background-color: #f4f5f9;
+    line-height: 28px;
+    padding-top: $section-padding;
+    .case-area{
+        background-color: $white;
+        margin-top: 40px;
+        margin-right: -40px;
+        z-index: 100;
+        padding: 40px;
+        position: relative;
+        min-height: 420px;
+        i{
+            color: $primary-color;
+        }
+    }
+    .case-img{
+        img{
+            margin-left: -40px;
+        }
+    }
+
 }

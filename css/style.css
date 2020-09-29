@@ -1,3 +1,4 @@
+/* NAVBAR */
 .navbar {
   border-bottom: #F59914 2px solid;
 }
@@ -22,6 +23,7 @@
   background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
+/* HEADER */
 #header {
   background: url("../images/header-bg.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -29,7 +31,7 @@
 }
 
 #header .overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #header .content {
@@ -58,5 +60,24 @@
 #header .btn-outline-primary:hover {
   background-color: #00ADB5;
   color: #ffffff;
+}
+
+/* SERVICES */
+#services {
+  padding: 50px;
+}
+
+#services .service i {
+  color: #00ADB5;
+}
+
+#services .service h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#services .service p {
+  font-size: 14px;
+  line-height: 26px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,10 @@
 $primary-color: #F59914;
 $secondary-color: #00ADB5;
 $white: #ffffff;
+$section-padding: 50px;
+$section-margin: 50px;
 
+/* NAVBAR */
 .navbar {
     border-bottom: $primary-color 2px solid;
 
@@ -25,13 +28,14 @@ $white: #ffffff;
     background-color: rgba(0,0,0,0.7) !important;
 }
 
+/* HEADER */
 #header{
     background: url('../images/header-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 
     .overlay{
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.8);
     }
 
     .content{
@@ -57,6 +61,27 @@ $white: #ffffff;
         &:hover{
             background-color: $secondary-color;
             color: $white;
+        }
+    }
+}
+
+/* SERVICES */
+#services{
+    padding: $section-padding;
+    
+    .service{
+        i{                
+            color: $secondary-color;               
+        }
+    
+        h3{
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        p{
+            font-size: 14px;
+            line-height:26px;
         }
     }
 }

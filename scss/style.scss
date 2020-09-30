@@ -133,7 +133,8 @@ body{
 #case-study{
     background-color: #f4f5f9;
     line-height: 28px;
-    padding-top: $section-padding;
+    padding-top: $section-padding; 
+    padding-bottom: $section-padding; 
     .case-area{
         background-color: $white;
         margin-top: 40px;
@@ -153,3 +154,51 @@ body{
     }
 
 }
+
+/* PORTFOLIO */
+#portfolio{
+    padding-top: $section-padding;
+
+    .img-container{
+        position: relative;
+        cursor: pointer;
+        &:hover{
+            .img-overlay{
+                opacity: 0.7;
+            }
+        }
+        .img-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            background-color: $secondary-color;
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+
+            .img-text{
+                color: $white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

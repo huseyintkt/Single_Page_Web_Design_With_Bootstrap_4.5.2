@@ -139,6 +139,7 @@ body {
   background-color: #f4f5f9;
   line-height: 28px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #case-study .case-area {
@@ -157,5 +158,42 @@ body {
 
 #case-study .case-img img {
   margin-left: -40px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  padding-top: 50px;
+}
+
+#portfolio .img-container {
+  position: relative;
+  cursor: pointer;
+}
+
+#portfolio .img-container:hover .img-overlay {
+  opacity: 0.7;
+}
+
+#portfolio .img-container .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00ADB5;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .img-container .img-overlay .img-text {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=style.css.map */

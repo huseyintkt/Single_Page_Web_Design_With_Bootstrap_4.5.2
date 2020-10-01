@@ -190,8 +190,34 @@ body{
     }
 }
 
+/* TESTIMONIAL */
+#testimonial{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url('../images/testimonial-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+    .quote{
+        color: $secondary-color;
+        margin-bottom: 30px;
+    }
+    .carousel-item{
+        img{
+            opacity: 0.1;
+        }
+        .blockquote-footer{
+            color: $secondary-color;
+        }
+    }
 
-
+}
 
 
 

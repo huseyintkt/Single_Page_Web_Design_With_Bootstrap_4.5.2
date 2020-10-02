@@ -33,6 +33,18 @@ body {
   color: #ffffff;
 }
 
+.custom-btn-block {
+  background-color: #00ADB5;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.custom-btn-block:hover {
+  background-color: #ffffff;
+  color: #00ADB5;
+  border: 1px solid #00ADB5;
+}
+
 /* NAVBAR */
 .navbar {
   border-bottom: #F59914 2px solid;
@@ -115,7 +127,7 @@ body {
 }
 
 #team .card i {
-  color: #F59914;
+  color: #00ADB5;
 }
 
 /* WHAT ARE WE DOING */
@@ -221,5 +233,30 @@ body {
 
 #testimonial .carousel-item .blockquote-footer {
   color: #00ADB5;
+}
+
+/* CONTACT */
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f4f5f9;
+}
+
+#contact .input-group-text {
+  width: 50px;
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #00ADB5;
+}
+
+#contact .form-control {
+  border-radius: 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2c2c2f;
+  text-align: center;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

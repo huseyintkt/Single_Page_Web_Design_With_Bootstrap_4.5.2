@@ -38,6 +38,17 @@ body{
     }
 }
 
+.custom-btn-block{
+    background-color: $secondary-color;
+    color: $white;
+    border-radius: 0;
+    &:hover{
+        background-color: $white;
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+    }
+}
+
 /* NAVBAR */
 .navbar {
     border-bottom: $primary-color 2px solid;
@@ -105,7 +116,7 @@ body{
         border: none;
         cursor: pointer;
         i{
-            color: $primary-color;        
+            color: $secondary-color;
         }
     }
 }
@@ -216,13 +227,30 @@ body{
             color: $secondary-color;
         }
     }
-
 }
 
+/* CONTACT */
+#contact{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: #f4f5f9;
+    .input-group-text{
+        width: 50px;
+        border-radius: 0;
+        color: $white;
+        background-color: $secondary-color;
+    }
+    .form-control{
+        border-radius: 0;
+    }
+}
 
-
-
-
+/* FOOTER */
+footer{
+    background-color: #2c2c2f;
+    text-align: center;
+    color: $white
+}
 
 
 

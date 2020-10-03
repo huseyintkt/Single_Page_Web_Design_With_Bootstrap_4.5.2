@@ -2,7 +2,7 @@
 $primary-color: #F59914;
 $secondary-color: #00ADB5;
 $white: #ffffff;
-$section-padding: 50px;
+$section-padding: 100px;
 // $section-margin: 50px;
 
 body{
@@ -86,7 +86,7 @@ body{
 /* SERVICES */
 #services{
     padding-top: $section-padding;
-    padding-bottom: $section-padding;
+    padding-bottom: 50px;
     i{                
         color: $primary-color;               
     }
@@ -98,7 +98,7 @@ body{
 /* ABOUT */
 #about{
     padding-top: $section-padding;
-    padding-bottom: $section-padding;
+    // padding-bottom: $section-padding;
     .title-about{
         border-left: 4px solid $primary-color;
         padding-left: 20px;
@@ -110,8 +110,8 @@ body{
 
 /* TEAM */
 #team{
-    padding-top: $section-padding;
-    padding-bottom: $section-padding;
+    padding-top: 50px;
+    // padding-bottom: $section-padding;
     .card{
         border: none;
         cursor: pointer;
@@ -251,8 +251,4 @@ footer{
     text-align: center;
     color: $white
 }
-
-
-
-
 
